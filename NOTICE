@@ -1,0 +1,12 @@
+Cynthia Video Studio
+Personal video-production project maintained by Cynthia0617.
+
+Motion recipes in projects/demo/src/Scenes.tsx and Shared.tsx are adapted from
+Vincentwei1021/video-shotcraft, Copyright 2026 Wei Yihao, Apache-2.0.
+https://github.com/Vincentwei1021/video-shotcraft
+Changes: personal branding, portable toolchain, measured narration timeline,
+new CLI, project templates, environment-only TTS credentials and packaging.
+The complete upstream skill and workbench are not redistributed.
+
+Freesound audio source/author/CC0 notices are in projects/demo/public/audio/sfx/.
+Remotion, React and other runtime dependencies retain their own licenses.

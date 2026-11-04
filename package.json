@@ -1,0 +1,36 @@
+{
+  "name": "cynthia-video-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "studio": "node scripts/cli.mjs studio",
+    "render": "node scripts/cli.mjs render",
+    "still": "node scripts/cli.mjs still",
+    "new": "node scripts/cli.mjs new",
+    "tts": "node --env-file-if-exists=.env scripts/tts.mjs",
+    "doctor": "node scripts/cli.mjs doctor",
+    "check": "node scripts/check.mjs",
+    "typecheck": "tsc --noEmit",
+    "pack:source": "node scripts/cli.mjs pack",
+    "timeline": "node scripts/cli.mjs prepare",
+    "smoke": "node scripts/cli.mjs smoke"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.509",
+    "@remotion/bundler": "4.0.509",
+    "@remotion/renderer": "4.0.509",
+    "remotion": "4.0.509",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "ws": "8.18.3"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3"
+  }
+}

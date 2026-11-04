@@ -1,0 +1,56 @@
+[
+  {
+    "shot": "hook",
+    "offset": 60,
+    "duration": 25,
+    "src": "audio/sfx/fs-321137-gain.wav",
+    "volume": 0.55,
+    "peakSeconds": 0.215,
+    "label": "圈注"
+  },
+  {
+    "shot": "hook",
+    "offset": 134,
+    "duration": 32,
+    "src": "audio/sfx/fs-630019-gain.wav",
+    "volume": 0.5,
+    "peakSeconds": 0.335,
+    "label": "纸页动作"
+  },
+  {
+    "shot": "inventory",
+    "offset": 24,
+    "duration": 40,
+    "src": "audio/sfx/fs-449645.mp3",
+    "volume": 0.12,
+    "peakSeconds": 0.125,
+    "label": "轻转场"
+  },
+  {
+    "shot": "inventory",
+    "offset": 43,
+    "duration": 40,
+    "src": "audio/sfx/fs-449645.mp3",
+    "volume": 0.12,
+    "peakSeconds": 0.125,
+    "label": "轻转场"
+  },
+  {
+    "shot": "trace",
+    "offset": 62,
+    "duration": 32,
+    "src": "audio/sfx/fs-630019-gain.wav",
+    "volume": 0.5,
+    "peakSeconds": 0.335,
+    "label": "纸页动作"
+  },
+  {
+    "shot": "manifest",
+    "offset": 102,
+    "duration": 40,
+    "src": "audio/sfx/fs-449645.mp3",
+    "volume": 0.12,
+    "peakSeconds": 0.125,
+    "label": "轻转场"
+  }
+]

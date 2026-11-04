@@ -1,0 +1,17 @@
+node_modules/
+out/
+dist/
+cache/
+.render-*/
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+*.pcm
+*.zip
+*.mp4
+*.mov
+*.key
+*.pem
+projects/*/public/audio/private/

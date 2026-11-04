@@ -1,0 +1,125 @@
+{
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "sourceBeat0": 0.3463110862262017,
+  "beatInterval": 0.6249557690929449,
+  "outputAudioOffsetSec": 0.021333333333333,
+  "total": 1061,
+  "shots": [
+    {
+      "id": "hook",
+      "label": "拆解前暂停",
+      "title": "旧账簿，\n能直接拆开扫吗？",
+      "kicker": "创作示例 / 扫描前准备",
+      "duration": 199,
+      "fromBeat": null,
+      "toBeat": 10,
+      "voice": [
+        {
+          "line": 1,
+          "text": "多年旧账簿堆在库房，能直接拆开扫描吗？",
+          "seconds": 2.716875,
+          "src": "audio/line-01.wav",
+          "offset": 12
+        }
+      ],
+      "from": 0
+    },
+    {
+      "id": "inventory",
+      "label": "身份登记",
+      "title": "先盘清\n这四项",
+      "kicker": "01 / 年度、种类、册数、页序",
+      "duration": 150,
+      "fromBeat": 10,
+      "toBeat": 18,
+      "voice": [
+        {
+          "line": 2,
+          "text": "先弄清年度、账簿种类、册数和原有页序。",
+          "seconds": 3.4049583333333335,
+          "src": "audio/line-02.wav",
+          "offset": 12
+        }
+      ],
+      "from": 199
+    },
+    {
+      "id": "condition",
+      "label": "状态检查",
+      "title": "装订与保存，\n先检查再处理",
+      "kicker": "02 / 状态与期限",
+      "duration": 168,
+      "fromBeat": 18,
+      "toBeat": 27,
+      "voice": [
+        {
+          "line": 3,
+          "text": "再看装订及保存状态、保管期限。",
+          "seconds": 2.558375,
+          "src": "audio/line-03.wav",
+          "offset": 12
+        }
+      ],
+      "from": 349
+    },
+    {
+      "id": "trace",
+      "label": "页册库位",
+      "title": "每一页，\n都能回到原册",
+      "kicker": "03 / 页、册、库位",
+      "duration": 188,
+      "fromBeat": 27,
+      "toBeat": 37,
+      "voice": [
+        {
+          "line": 4,
+          "text": "数字化过程要能说明，每一页来自哪一本，原件后来放回哪里。",
+          "seconds": 4.271541666666667,
+          "src": "audio/line-04.wav",
+          "offset": 12
+        }
+      ],
+      "from": 517
+    },
+    {
+      "id": "manifest",
+      "label": "先清册后扫描",
+      "title": "先做清册，\n后做扫描",
+      "kicker": "04 / 保住顺序与对应",
+      "duration": 168,
+      "fromBeat": 37,
+      "toBeat": 46,
+      "voice": [
+        {
+          "line": 5,
+          "text": "先做清册，后做扫描，减少顺序和对应关系出错。",
+          "seconds": 3.704833333333333,
+          "src": "audio/line-05.wav",
+          "offset": 12
+        }
+      ],
+      "from": 705
+    },
+    {
+      "id": "outro",
+      "label": "评论互动",
+      "title": "扫描前，\n最难盘清什么？",
+      "kicker": "Cynthia Video Studio",
+      "duration": 188,
+      "fromBeat": 46,
+      "toBeat": 56,
+      "voice": [
+        {
+          "line": 6,
+          "text": "旧账簿扫描前，最难盘清的是数量、年度还是库位？评论区聊聊。",
+          "seconds": 4.559708333333333,
+          "src": "audio/line-06.wav",
+          "offset": 12
+        }
+      ],
+      "from": 873
+    }
+  ]
+}
